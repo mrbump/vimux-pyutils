@@ -112,7 +112,6 @@ def run_tmux_python_cell(restore_cursor=False):
 endpython
 
 vmap <silent> <C-c> :python run_tmux_python_chunk()<CR>
-noremap <silent> <C-b> :python run_tmux_python_cell(False)<CR>
-noremap <silent> <C-g> :python run_tmux_python_cell(True)<CR>
+noremap <silent> <C-b> :python run_tmux_python_cell(True)<CR>
 
 
