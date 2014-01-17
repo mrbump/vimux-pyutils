@@ -103,6 +103,7 @@ def run_tmux_python_cell(restore_cursor=False):
 
   # Run chunk on cell range
   vim.command(':?##?;/##/ :python run_tmux_python_chunk()')
+  vim.command(':noh')
 
   if restore_cursor:
     # Restore cursor position
